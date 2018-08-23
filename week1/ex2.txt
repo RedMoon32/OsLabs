@@ -1,0 +1,459 @@
+    1  pwd
+    2  ls
+    3  ls
+    4  pwd
+    5  ssh root@82.146.60.6
+    6  xranrdr
+    7  xrandr
+    8  CVT 1366 768
+    9  cvt 1366 768
+   10  sudo xrandrd --newmode  "1368x768_60.00"   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+   11  sudo xrandr --newmode "1368x768_60.00"   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+   12  sudo xrandr --addmode VGA-1 "1366x768_60.00"
+   13  sudo xrandr --addmode VGA-1 "1368x768_60.00"
+   14  xrandr
+   15  xrandr
+   16  cvt 1600 900
+   17  sudo xrandr --newmode "1600x900_60.00"  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+   18  sudo xrandr --addmode VGA-1  "1600x900_60.00"
+   19  cvt 1600 800
+   20  sudo xrandr --newmode "1600x800_60.00"  104.25  1600 1688 1848 2096  800 803 813 831 -hsync +vsync
+   21  sudo xrandr --addmode VGA-1  "1600x800_60.00"
+   22  cvt 1920 1080
+   23  sudo xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+   24  sudo xrandr --admode VGA-1 "1920x1080_60.00"
+   25  sudo xrandr --addmode VGA-1 "1920x1080_60.00"
+   26  cvt 1366 768
+   27  sudo xrandr --newmode "1368x768_60.00"   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+   28  cvt 1600 768
+   29  sudo xrandr --newmode "1600x768_60.00"  100.25  1600 1688 1848 2096  768 771 781 798 -hsync +vsync
+   30  sudo xrandr --addmode VGA-1 "1600x768_60.00"
+   31  cvt 1600 1000
+   32  sudo xrandr --newmode "1600x1000_60.00"  132.25  1600 1696 1864 2128  1000 1003 1009 1038 -hsync +vsync
+   33  sudo xrandr --addmode VGA-1 "1600x1000_60.00"
+   34  ./studio.sh
+   35  ssh root@82.146.60.6
+   36  ssh root@82.146.60.6
+   37  ls
+   38  ls
+   39  ls -l
+   40  ssh root@82.146.60.6
+   41  ssh root@82.146.60.6
+   42  ssh root@82.146.60.6
+   43  ssh root@82.146.60.6
+   44  ssh root@82.146.60.6
+   45  ./studio.sh
+   46  gnome-system-monitor
+   47  ./studio.sh
+   48  ./studio.sh
+   49  ./studio.sh
+   50  gnome-system-monitor
+   51  ./studio.sh
+   52  cd Downloads
+   53  ls
+   54  cd Freelanc
+   55  ls
+   56  java -jar TLauncher-2.22.jar
+   57  sudo java -jar TLauncher-2.22.jar
+   58  ./studio.sh
+   59  gnome-system-monitor
+   60  sudo xrandr --addmode VGA-1 "1440x900_60.00"
+   61  cvt 1440 900
+   62  sudo xrandr --newmode "1440x900_60.00"  106.50  1440 1528 1672 1904  900 903 909 934 -hsync +vsync
+   63  sudo xrandr --addmode VGA-1 "1440x900_60.00"
+   64  jupyter notebook
+   65  cd ..
+   66  cd Documents/
+   67  jupyter notebook
+   68  ls -la `which python3.6` 
+   69  jupyter kernelspec install /usr/local/Cellar/python3/3.6.1/bin/ /usr/bin/python3.6
+   70  jupyter kernelspec install /usr/bin/python3.6
+   71  jupyter kernelspec install /usr/bin/
+   72  sudo jupyter kernelspec install /usr/bin/
+   73  jupyter notebook
+   74  jupyter notebook
+   75  ls
+   76  ls -l
+   77  python3 
+   78  vim newDoc
+   79  cd PycharmProjects/
+   80  ls
+   81  cd LibraryHelpBot/
+   82  ls
+   83  cd AdminSite/
+   84  ls
+   85  vim api.py
+   86  cd X11
+   87  ls
+   88  cd bin
+   89  ls
+   90  ДЫ
+   91  ls
+   92  rmdir X11
+   93  sudo rmdir X11
+   94  rmdir --help
+   95  sudo rm -rf X11
+   96  ls -l
+   97  python2
+   98  python2
+   99  python3
+  100  ды
+  101  pwd
+  102  ./studio.sh
+  103  ls
+  104  ls -l
+  105  cd Translater
+  106  cd PycharmProjects/
+  107  ls
+  108  cd Translater
+  109  ls -l
+  110  ls -l
+  111  ls
+  112  vim script.js
+  113  cd PycharmProjects/
+  114  ls
+  115  cd Translater
+  116  ls
+  117  node test.js
+  118  ls
+  119  node test.js
+  120  ls
+  121  ls -help
+  122  ls --help
+  123  cd hin
+  124  cd bin
+  125  ./studio.sh
+  126  ./studio.sh
+  127  gnome-sysyem-monitor
+  128  gnome-system-monitor
+  129  ls -l
+  130  ./studio.sh
+  131  ./studio.sh
+  132  ./studio.sh
+  133  ./studio.sh
+  134  gnome-system-monitor
+  135  git init
+  136  git add main.py
+  137  git status
+  138  git checkout -b version_0_1
+  139  git branch -d version_0_1
+  140  git commit
+  141  git config --globaql.user.email "rinat.babichev@gmail.com"
+  142  git config --global.user.email "rinat.babichev@gmail.com"
+  143  git config --global user.email "you@example.com"
+  144  git config --global user.email "rinat.babichev@gmail.com"
+  145  git commit
+  146  git commit
+  147  git status
+  148  git checkout master
+  149  git branch --all
+  150  git checkout -b master
+  151  git branch -d version_0_1
+  152  git status
+  153  git commit
+  154  git add main.py
+  155  git commit
+  156  git tag -a v0.1 -m 'Version 0.1'
+  157  git show
+  158  git checkout -b FloydWarshall
+  159  git checkout master
+  160  git checkout FloydWarshall 
+  161  git checkout master
+  162  git status
+  163  git checkout master
+  164  git add main.py
+  165  git commit
+  166  git status
+  167  git checkout FloydWarshall 
+  168  ls
+  169  git add main.py
+  170  git commit
+  171  ssh root@82.146.60.6
+  172  git curl
+  173  git --help
+  174  git add main.py
+  175  git commit
+  176  git add main.py
+  177  git commit
+  178  git checkout master
+  179  git checkout FloydWarshall 
+  180  git checkout master
+  181  git checkout master
+  182  git status
+  183  git add test_warshall.py
+  184  git add main.py
+  185  git commit
+  186  git checkout FloydWarshall 
+  187  git merge FloydWarshall master
+  188  sudo add-apt-repository ppaPvovansrnd/coolreader
+  189  sudo add-apt-repository ppa:Pvovansrnd/coolreader
+  190  sudo add-apt-repository ppa:vovansrnd/coolreader
+  191  sudo apt-get update
+  192  sudo apt-get install cr3
+  193  sudo apt-get update
+  194  sudo apt-get updatre
+  195  sudo apt-get update
+  196  sudo apt-get install cr3
+  197  sudo apt-get update
+  198  apt-secure
+  199  --allow-unauthenticated
+  200  sudo apt-get install cr3
+  201  sudo dpkg -i coolreader3_3.0.45-1_amd64.deb
+  202  sudo dpkg -i cr3_3.0.56-7_amd64.deb
+  203  sudo apt-get install libpng12-0
+  204  sudo apt-get install  libjpeg62 
+  205  sudo apt --fix-broken install
+  206  sudo dpkg -i coolreader3_3.0.45-1_amd64.deb
+  207  sudo apt-get install libjpeg62
+  208   add-apt-repository ppa:vovansrnd/coolreader
+  209  sudo  add-apt-repository ppa:vovansrnd/coolreader
+  210  sudo snap install buka
+  211  git status
+  212  git checkout master
+  213  git add main.py
+  214  git add test_warshall.py 
+  215  git commit
+  216  git checkout master
+  217  ssh root@82.146.60.6
+  218  ./studio.sh
+  219  ./studio.sh
+  220  sudo pip install yandex.translate
+  221  sudo -H pip install yandex.translate
+  222  pip install PySocks
+  223  ssh root@82.146.60.6
+  224  ssh root@82.146.60.6
+  225  pip install python-telegram-bot
+  226  pip installPySocks
+  227  pip install PySocks
+  228  fdbjhjbhnklenklsnk;lnkl
+  229  gp;etjhmoht
+  230  e
+  231  gh'l
+  232  l
+  233  ]gr
+  234  ]rg
+  235  l[r
+  236  [klr
+  237  k[g
+  238  k[k
+  239  [-r
+  240  iwef
+  241  fweg
+  242  f
+  243  fs
+  244  ge
+  245  rep]pj[rthp[jkt
+  246  ]
+  247  [kp[khrt
+  248  [klth
+  249  [
+  250  [k
+  251  [k
+  252  [kpkgk
+  253  i[-; [kler[k; ; [k; [k; [kpeg; [kthr; [krth[k; thpjkrthpj; p'j[rjp]pp]k
+  254  d we
+  255  ssh root@82.146.60.6
+  256  screen -ls
+  257  python
+  258  python
+  259  pip install Mock
+  260  gnome-system-monitor
+  261  gedit person.txt
+  262  python3
+  263  curl vk.com
+  264  curl -vk.com
+  265  curl --help
+  266  ping 82.146.60.6
+  267  ping 82.146.60.6
+  268  ping --help
+  269  ssh root@82.146.60.6
+  270  ssh root@82.146.60.6
+  271  pactl load-module module-detect
+  272  ssh root@82.146.60.6
+  273  python
+  274  python
+  275  ssh root@82.146.60.6
+  276  ssh root@82.146.60.6
+  277  python3
+  278  ls
+  279  cd Documents
+  280  python
+  281  ls
+  282  ls -l
+  283  vim NewPrices.txt 
+  284  python3
+  285  vim NewPrices.txt 
+  286  python3
+  287  python3
+  288  python3
+  289  python3
+  290  python3
+  291  python3
+  292  ssh root@82.146.60.6
+  293  python
+  294  python3
+  295  python3
+  296  ssh root@82.146.60.6
+  297  python3
+  298  python3
+  299  pip install gensim
+  300  def check_username_and_description(self, status):
+  301          if any(x in status.user.screen_name.lower() for x in BOT_SETTINGS['banned_username_userinfo_words']):
+  302              return False
+  303          if any(x in status.user.description.lower() for x in BOT_SETTINGS['banned_username_userinfo_words']):
+  304              return False
+  305  python
+  306  python3
+  307  python3
+  308  python3
+  309  gedit
+  310  python3
+  311  ssh root@82.146.60.6
+  312  python manage.py runserver
+  313  python manage.py runserver
+  314  python manage.py runserver
+  315  python manage.py runserver
+  316  python manage.py runserver
+  317  python3
+  318  ls -l
+  319  ls fofo
+  320  flsls
+  321  ls -l
+  322  cd Pictures/
+  323  ls
+  324  ping 127.0.0.1
+  325  ls
+  326  знерщт3
+  327  ls -l
+  328  ls -l
+  329  ls -l
+  330  lslf j43 47fhg ghgh lll hehe
+  331  clear
+  332  python3
+  333  gnome-system-monitor
+  334  gnome-system-monitor
+  335  gnome-system-monitor
+  336  gnome-system-monitor
+  337  ssh root@82.146.60.6
+  338  cd PycharmProjects/
+  339  mkdir Conspectus
+  340  git clone https://github.com/mzucker/noteshrink
+  341  ls
+  342  ls
+  343  ls
+  344  cd noteshrink/
+  345  ls
+  346  clear
+  347  ls
+  348  ls
+  349  ./noteshrink.py image.jpg
+  350  pip install PIL
+  351  sudo pip3 install PIL
+  352  ./noteshrink.py image.jpg
+  353  ls
+  354  venv venv/
+  355  cd venv
+  356  activate
+  357  .bashrc
+  358  cd bin
+  359  source activate
+  360  ls
+  361  cd ..
+  362  cd ..
+  363  ls
+  364  noteshrink.py image.jpg
+  365  ./noteshrink.py image.jpg
+  366  ./noteshrink.py ss.jpg
+  367  ./noteshrink.py ss.jpg
+  368  ls
+  369  ./noteshrink.py ss.jpg
+  370  ./noteshrink.py sss.jpg
+  371  ./noteshrink.py lll.jpg
+  372  ./noteshrink.py lll.jpg
+  373  ./noteshrink.py sss.jpg
+  374  cd venv
+  375  source bin
+  376  cd bin
+  377  source activate
+  378  ls
+  379  cd ..
+  380  cd ..
+  381  ./noteshrink.py sss(1).jpg
+  382  ./noteshrink.py sss x.jpg
+  383  ./noteshrink.py sss x.jpg
+  384  ./noteshrink.py sssx.jpg
+  385  source venv/bin
+  386  cd venv
+  387  ls
+  388  python3
+  389  vim PyPi
+  390  python3 PyPi
+  391  vim PyPi
+  392  python3 PyPi
+  393  vim PyPi
+  394  python3 PyPi
+  395  python3
+  396  >__init__.py
+  397  ls -l
+  398  python3
+  399  clear
+  400  python3
+  401  ls
+  402  python3
+  403  ls
+  404  python3
+  405  ls -l
+  406  vim PyPi
+  407  python3 pypi
+  408  python3 Pypi
+  409  cd Py
+  410  ls
+  411  cd PycharmProjects/
+  412  clear
+  413  mkdir OsLabs
+  414  cd OsLabs/
+  415  git init
+  416  mkdir lab1
+  417  cd ..
+  418  cd ..
+  419  mkdir week1
+  420  cd week1
+  421  cd ..
+  422  rmdir week1
+  423  cd ..
+  424  ls
+  425  cd ..
+  426  cd ..
+  427  ls
+  428  cd usr
+  429  cd bin
+  430  ls -d *gcc
+  431  grep gcc
+  432  grep *gcc
+  433  grep *gcc /
+  434  grep *gcc
+  435  ls | grep gcc
+  436  sort __help
+  437  sort --help
+  438  ls | grep gcc | sort -r
+  439  cd ..
+  440  cd ..
+  441  cd home/rinat
+  442  ls
+  443  cd week1
+  444  cd OsLabs
+  445  cd PycharmProjects/
+  446  ls
+  447  cd OsLabs/
+  448  ls
+  449  mv week1
+  450  mv week1 lab1
+  451  mv lab1 week1
+  452  ls
+  453  cd week1
+  454  ls /usr/bin
+  455  cd /usr/bin/|grep gcc|sort -r
+  456  ls /usr/bin/|grep gcc|sort -r
+  457  ls /usr/bin/|grep gcc|sort -r>ex1.txt
+  458  cat ex1.txt
+  459  history > ex2.txt
