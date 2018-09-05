@@ -45,16 +45,24 @@ int delete_element(LinkedList *list,int elem){
 	node* prev=NULL;
 	for (node* i=list->head;i!=NULL;i=i->next){
 		if (i->data==elem){
-			if (prev==NULL){
-				free(i);
-				list->head=list->head->next;
+			list->size-=1;
+			if (list->size==0){
+				free(list->head);
+				list->head=NULL;
+				list->last=NULL;
 			}
 			else{
-				prev->next=i->next;
-				free(i);
+				if (prev==NULL){
+					free(i);
+					list->head=list->head->next;
+				}
+				else{
+					prev->next=i->next;
+					free(i);
+				}
+				found=1;
+				break;
 			}
-			found=1;
-			break;
 		}
 		prev=i;
 	}
@@ -62,9 +70,14 @@ int delete_element(LinkedList *list,int elem){
 }
 
 void print_list(LinkedList *list){
+	if (list->size==0){
+		printf("Empty\n");
+		return;
+	}
 	for (node *a=list->head;a!=NULL;a=a->next){
 		printf(" %d",a->data);
 	}
+	printf("\n");
 }
 
 
@@ -74,7 +87,12 @@ int main(){
 	insert_to_linked_list(list,6);
 	insert_to_linked_list(list,7);
 	insert_to_linked_list(list,8);
-	delete_element(list,7);
 	delete_element(list,5);
+	print_list(list);
+	delete_element(list,6);
+	print_list(list);
+	delete_element(list,7);
+	print_list(list);
+	delete_element(list,8);
 	print_list(list);
 }
