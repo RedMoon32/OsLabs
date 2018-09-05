@@ -40,6 +40,27 @@ int insert_to_linked_list(LinkedList* list, int newdata){
 	return 0;
 }
 
+int delete_element(LinkedList *list,int elem){
+	int found=0;
+	node* prev=NULL;
+	for (node* i=list->head;i!=NULL;i=i->next){
+		if (i->data==elem){
+			if (prev==NULL){
+				free(i);
+				list->head=list->head->next;
+			}
+			else{
+				prev->next=i->next;
+				free(i);
+			}
+			found=1;
+			break;
+		}
+		prev=i;
+	}
+	return found;
+}
+
 void print_list(LinkedList *list){
 	for (node *a=list->head;a!=NULL;a=a->next){
 		printf(" %d",a->data);
@@ -53,5 +74,7 @@ int main(){
 	insert_to_linked_list(list,6);
 	insert_to_linked_list(list,7);
 	insert_to_linked_list(list,8);
+	delete_element(list,7);
+	delete_element(list,5);
 	print_list(list);
 }
