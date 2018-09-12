@@ -1,0 +1,1 @@
+gcc ex1.c;for i in `seq 10`; do ./a.out;done
