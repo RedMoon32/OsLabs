@@ -3,8 +3,7 @@
 #include <stdlib.h> 
 #include <pthread.h> 
 #define threads_num 5
-// A normal C function that is executed as a thread  
-// when its name is specified in pthread_create() 
+
 void *myThreadFun(int numb) 
 { 
 	printf("This is thread number %d\n",numb); 
