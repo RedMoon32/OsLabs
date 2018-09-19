@@ -46,8 +46,9 @@ int main(){
 	pthread_create(&consumer_th,NULL,consumer,NULL);
 
 	while (1) {
-		sleep(3);
-		printf("Current buffer size  = %d,\nLast element = %c;\n",count, buffer[count]);
+		sleep(5);
+		printf("Current buffer size  = %d\n",count);
+		printf("Last element of the buffer=%c\n",buffer[count]);
 	}
 
 
