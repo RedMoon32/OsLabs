@@ -1,0 +1,10 @@
+New thread is created
+This is thread number 0
+New thread is created
+This is thread number 1
+New thread is created
+This is thread number 2
+New thread is created
+This is thread number 3
+New thread is created
+This is thread number 4
