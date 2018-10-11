@@ -1,0 +1,4 @@
+Physical memory (also called RAM) is preferable, fast, memory, which is used as much as possible
+
+However, when we do not have enough ram for our program we can use memory of our hard drive(like swap area)
+Virtual mempory is like an interface  between our program and different kind of memories, it uses page table to map to ram or disk
