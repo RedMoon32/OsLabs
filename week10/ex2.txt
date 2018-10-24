@@ -1,0 +1,2 @@
+2099609 file.txt
+/home/rinat/PycharmProjects/OsLabs/week1/file.txt
