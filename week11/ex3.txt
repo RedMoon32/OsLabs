@@ -1,0 +1,2 @@
+First example will print Hello\n twice,  because buffer is line buffered and data will be written from buffer only when newline character is inserted, child process inherits buffer from parent(which had 'Hello') so Hello/n will be printed twice 
+In second example buffer is already empty before the fork so 'hello' will be printed only one time, and both child and parent will insert a newline character so we wil have two empty lines
