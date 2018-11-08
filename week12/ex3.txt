@@ -1,0 +1,27 @@
+$ time ./a.out ex2.txt ex2_copy.txt
+real 0m0,003s                                                                                                    
+user 0m0,000s                                                                                                    
+sys 0m0,002s
+
+$ gcc copy.c DBUF_SIZE=32
+$ time ./a.out ex2.txt ex2_copy.txt
+
+real 0m0,006s                                                                                                    
+user 0m0,001s                                                                                                    
+sys 0m0,005s
+
+$gcc copy.c DBUF_SIZE=1
+$ time ./a.out ex2.txt ex2_copy.txt
+real 0m0,029s                                                                                                    
+user 0m0,000s                                                                                                    
+sys 0m0,029s
+
+//With O_SYNC
+$ gcc copy.c
+$ time ./a.out ex2.txt ex2_copy.txt                                                                                                              
+real 0m2,327s                                                                                                    
+user 0m0,003s                                                                                                    
+sys 0m0,000s 
+
+While decreasing buffer size each commands runs slower, as program calls more write operations to OS
+Also without O_SYNC each command runs much faster
